@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.root {
+  background: #ffffff;
+
+}
+
+.container {
+  margin: 6rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .logo{
+      width:6rem;
+      margin-bottom: 2rem;
+    }
+    .mainTitle{
+      font-family: 'Lora', serif;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+
+}
+
+.brand {
+  text-decoration: none;
+  font-size: 1.75em; /* ~28px */
+}
+
+.brandTxt {
+  margin-left: 10px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.bannerTitle {
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1em;
+}
