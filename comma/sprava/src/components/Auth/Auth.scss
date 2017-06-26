@@ -1,0 +1,72 @@
+.container{
+  background-color: #23252C;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7rem 0;
+
+
+}
+.title{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 295px;
+
+  background: #F6F6F6;
+  color: #3A3232;
+  font-size: 18px;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding: 13px 20px;
+}
+.authButton {
+  text-align: center;
+  width: 335px;
+  height: 45px;
+  background: #42CA9A;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.5s;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:active {
+    opacity: 0.1;
+  }
+}
+.forgotPass{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: .67;
+
+  margin: 0;
+}
+.outer{
+  text-decoration: none;
+}

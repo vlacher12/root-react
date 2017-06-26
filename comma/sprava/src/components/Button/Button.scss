@@ -1,0 +1,31 @@
+.button {
+  text-align: center;
+  width: 335px;
+  height: 45px;
+  background: #42CA9A;
+  color: #fff;
+  cursor: pointer;
+
+  font-size: 18px;
+  transition: all 0.5s;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:active {
+    opacity: 0.1;
+  }
+}
+
+
+/* Увійти */
+

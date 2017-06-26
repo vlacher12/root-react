@@ -1,0 +1,6 @@
+{
+  "name": "SecondStep",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SecondStep.js"
+}
